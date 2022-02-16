@@ -30,7 +30,7 @@ const Listing = props => {
                     </div>
                     <div className="wide-layout two-parts-70-30">
                         <div>
-                            <div>Description</div>
+                            <h3>Description</h3>
                             <div className="description-text" dangerouslySetInnerHTML={{__html: sanitizeHtml(data.description)}} />
 
                             Amenities
